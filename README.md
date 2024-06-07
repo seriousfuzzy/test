@@ -9,7 +9,6 @@ This is a blockchain project that implements some of the major feature of popula
 - [Golang](https://golang.org/)
 Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 - [libp2p-go ](https://docs.libp2p.io/)
-- [BadgerDB](https://github.com/dgraph-io/badger)
 BadgerDB is an embeddable, persistent and fast key-value (KV) database written in pure Go. 
 
 ## Terms
@@ -25,23 +24,18 @@ BadgerDB is an embeddable, persistent and fast key-value (KV) database written i
 
 #### Interacting with the blockchain
 
-- Via CLI
-
-- REStFul API
-
 ### Consensus, Blocks & Proof Of Work (POW)
 
 
 ###  Wallet
 The wallet system, comparable to a bank account, contains a pair of public and private cryptographic keys. The keys can be used to track ownership, receive or spend cryptocurrencies. A public key allows for other wallets to make payments to the wallet's address, whereas a private key enables the spending of cryptocurrency from that address.
-#### NB: you can't spend your digital currency without your private key and once your private key is compromise, moving your money to a new wallet address is the best thing to do. 
+
 
 ### Transactions
 
 
 ### Uspent Transaction Output (UTXO) Model
 
-This concept is particularly famous with the bitcoin blockhain which is defined as an output of a blockchain transaction that has not been spent
 
 ### Merkle Tree
 
